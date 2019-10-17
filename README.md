@@ -19,4 +19,8 @@ If you're interest with this application feel free to clone by using this url
     npm start
 
 ### ScreenShoot
+![Dashboard](captured/homepage.png "This is the HomePage's captured")
+
+![Dashboard](captured/login.png "This is the Login's captured")
+
 ![Dashboard](captured/vs_code.png "This is the VS_Code's captured")
