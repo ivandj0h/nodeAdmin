@@ -1,0 +1,15 @@
+{{#each tasks}}
+  <div class="card card-body mb-2">
+    <h4>{{title}}</h4>
+    <p>{{details}}</p>
+    <!-- EDIT BUTTON -->
+    <a href="/tasks/edit/{{_id}}" class="btn btn-secondary mb-2">Edit</a>
+    <!-- DELETE BUTTON -->
+    <form action="/tasks/delete/{{id}}?_method=DELETE" method="post">
+      <input type="hidden" name="_method" value="DELETE">
+      <input type="submit" class="btn btn-danger btn-block" value="DELETE">
+    </form>
+  </div>
+{{else}}
+  <p>No Tasks created Yet.</p>
+{{/each}}
