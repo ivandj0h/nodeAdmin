@@ -17,3 +17,6 @@ If you're interest with this application feel free to clone by using this url
 
 ### Start Development Server: http://localhost:3000
     npm start
+
+### ScreenShoot
+![Dashboard](captured/vs_code.png "This is the VS_Code's captured")
