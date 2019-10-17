@@ -4,7 +4,7 @@
   "description": "Just a simple webadmin project using nodejs & mongodb",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "author": "Ivandi Djoh Gah",
   "license": "ISC",
